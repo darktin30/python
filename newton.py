@@ -16,7 +16,7 @@ def newton(x):
 	
 
 def main(steps):
-	print("Iteration for 3 steps with x0 = [0,1]")
+	print("Iteration for ", steps, " steps with x0 = [0,1]")
 	val = [0,1]
 	for i in range(steps):
 		val = newton(val)
@@ -24,7 +24,7 @@ def main(steps):
 	
 	print()
 		
-	print("Iteration for 3 steps with x0 = [0,-1]")
+	print("Iteration for ", steps, " steps with x0 = [0,-1]")
 	val = [0,-1]
 	for i in range(3):
 		val = newton(val)
